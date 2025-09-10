@@ -1,0 +1,29 @@
+{
+  "name": "basebot",
+  "version": "1.0.0",
+  "description": "simple basebot, implemented new baileys version",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "production": "pm2 start ecosystem.config.js --env production"
+  },
+  "keywords": [
+    "botwa",
+    "whatsapp-bot",
+    "basebot",
+    "baileys",
+    "typescript"
+  ],
+  "author": "Vrypt",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@cacheable/node-cache": "^1.7.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc.2",
+    "chalk": "^5.6.2",
+    "cluster": "^0.7.7",
+    "dayjs": "^1.11.18",
+    "pino-pretty": "^13.1.1"
+  }
+}

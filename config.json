@@ -1,0 +1,10 @@
+{
+  "config": {
+    "name": "BaseBot",
+    "ownerJid": [
+      "62882005514880@s.whatsapp.net",
+      "62882003353414@s.whatsapp.net"
+    ],
+    "ownerLid": [""]
+  }
+}

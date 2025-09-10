@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & config sensitive
+.env
+
+# PM2 & nodemon
+pids
+logs
+*.pid
+*.seed
+*.pid.lock
+dump.rdb
+ecosystem.config.js
+
+# Data storage (runtime, jangan masuk repo)
+data/logs/
+data/sessions/
+data/*.db
+data/*.sqlite
+data/*.json
+!data/.file   # biar folder data tetap ada tapi file kosong tetap disimpan
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+*.swp
+*.swo
+.idea/
+.vscode/
