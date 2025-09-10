@@ -1,6 +1,6 @@
 {
   "name": "basebot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple basebot, implemented new baileys version",
   "main": "index.js",
   "scripts": {
