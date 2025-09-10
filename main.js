@@ -151,6 +151,7 @@ export const startSocket = async () => {
     });
 
     if (!sock.authState.creds.registered) {
+      console.clear();
       let phoneNumber = await question("Please enter your phone number (with country code, e.g., +62812345678):\n");
       
       phoneNumber = phoneNumber.replace(/\s+/g, '').replace(/[^\d+]/g, '');
